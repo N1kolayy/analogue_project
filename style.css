@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Libre+Baskerville&display=swap');
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /*background-color: rgba(88,34,32,0.64);*/
+    background-size: 100% auto;
+    color: #1F1F1F;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    height: 45px;
+    min-width: 166px;
+    padding: 0px 15px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    background-color: #1F1F1F;
+    transition: background-color .2s ease-in;
+
+
+}
+.btn:hover {
+    background-color: #464542;
+}
+/*Header*/
+.header {
+
+    background-color: darkgoldenrod;
+}
+
+.header_wrapper {
+    padding-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display:  block;
+}
+
+.nav {
+    display: flex;
+}
+.nav_link {
+    margin-right: 32px;
+    color: #1F1F1F;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+
+}
+.nav_link:last-child {
+    margin-right: 0;
+}
+.nav_link:after {
+    width: 100%;
+    height: 2px;
+    background-color: #1F1F1F;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.nav_link:hover:after {
+    opacity: 1;
+}
+
+/*intro*/
+.intro {
+
+    background-color: bisque;
+}
+
+.intro_content {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+.intro_block {
+    height: 508px;
+
+}
+
+
+
+.intro_title{
+    max-width: 935px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.25;
+
+}
+.btn_intro {
+    min-width: 32px;
+    min-height: 32px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    margin-top: 12px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 3px 20px rgba(0,0,0,.25),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    0 2px 0 rgba(0,0,0,.1),
+    inset 0 0 20px rgba(0,0,0,.1);
+}
+
+.sub_title {
+    display: flex;
+    padding-left: 424px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 44px;
+
+
+}
+p1 {
+    min-height: 168px;
+    width: 347px;
+    padding-right: 34px;
+}
+p2 {
+    min-height: 120px;
+    width: 346px;
+}
+/*Intro*/
+.info {
+   padding-top: 200px;
+}
+
+.info_title {
+
+}
+.info_text{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 1.24;
+
+}
+.info_section{
+    justify-content: space-between;
+    padding-top: 44px;
+    display: flex;
+
+}
+.block_left{
+    max-width: 520px;
+    margin-bottom: 64px;
+}
+.section_wine{
+    max-width: 520px;
+
+}
+.section_img_wine{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.name_section {
+    padding-top: 9px;
+    padding-bottom: 3px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1.47;
+    color: #464542;
+    /*border-top: 3px solid red;*/
+}
+.section_text {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #6D6B67;
+}
+
+.section_gin {
+    padding-top: 64px;
+
+}
+.section_img_gin {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.section_img_batch {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+
+.section_img_batch{
+    padding-top: 64px;
+
+}
+.block_right {
+    /*padding-left: 80px;*/
+}
+.section_img_coffe {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+.description_block {
+    margin-top: 20px;
+}
+.rectangle {
+    border-top: 2px solid black;
+}
+
+.section_img_cosmetics {
+    padding-top: 64px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+
+.section_img_skin{
+    padding-top: 64px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+/*Tagline*/
+.statistics {
+    background-color: #F7F6F3;
+}
+.hueta {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 79px;
+}
+.statistics_wrapper {
+
+}
+.tagline {
+
+}
+.slogan{
+
+}
+.slogan_text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 1.32;
+
+}
+/*info_stat*/
+.info_statistics {
+    width: 544px;
+}
+.info_statistics_text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58;
+
+
+}
+.info_statistics_pct {
+    display: flex;
+    justify-content: space-between;
+}
+.info_projects {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+}
+.info_chance {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+
+}
+.info_team {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+
+}
+.info_average {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+
+}
+.about_info_pct {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.68;
+
+}
