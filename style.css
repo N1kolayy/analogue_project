@@ -22,7 +22,9 @@ img {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -52,7 +54,6 @@ img {
 /*Header*/
 .header {
 
-    background-color: darkgoldenrod;
 }
 
 .header_wrapper {
@@ -104,11 +105,9 @@ img {
 /*intro*/
 .intro {
 
-    background-color: bisque;
 }
 
 .intro_content {
-    display: flex;
     align-items: center;
     padding-top: 100px;
 }
@@ -120,7 +119,6 @@ img {
 
 
 .intro_title {
-    max-width: 935px;
     font-family: Inter;
     font-style: normal;
     font-weight: 700;
@@ -145,15 +143,23 @@ img {
 
 .sub_title {
     display: flex;
-    padding-left: 424px;
+    padding-top: 44px;
+    float: right;
+
+}
+.block_one {
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    padding-top: 44px;
-
-
+}
+.block_two {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 p1 {
@@ -654,7 +660,7 @@ p2 {
 .footer_copyright {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 55px;
+    padding: 0 24px 55px 24px;
 }
 .footer_copyright_desc {
     font-family: Libre Baskerville;
